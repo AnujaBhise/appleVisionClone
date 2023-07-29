@@ -38,7 +38,7 @@ gsap.to("#page>video",{
         end:"bottom top",
         // markers:true,
         scroller:"#main",
-        duration:3,
+      
       },
       onStart:()=>{
         document.querySelector("#page>video").play();
@@ -47,7 +47,7 @@ gsap.to("#page>video",{
     gsap.to("#page",{
       scrollTrigger:{
         trigger:"#page",
-        markers:true,
+        // markers:true,
         start:"top top",
         end:"bottom top",
         scroller:"#main",
@@ -62,4 +62,30 @@ gsap.to("#page-bottom",{
         scroller:"#main",
       },
       opacity:0
+})
+var tl1 = gsap.timeline({
+  scrollTrigger:{
+    trigger:"#page1",
+    scroller:"#main",
+    // markers:true,
+    pin:true,
+    start:"top top",
+    scrub:1
+  }
+})
+tl1.to("#page1>h1",{
+  top:"-50%"
+})
+var tl2 = gsap.timeline({
+  scrollTrigger:{
+    trigger:"#page2",
+    scroller:"#main",
+    // markers:true,
+    pin:true,
+    start:"top top",
+    scrub:1
+  }
+})
+tl2.to("#page2>h1",{
+  top:"-50%"
 })
