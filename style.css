@@ -16,6 +16,7 @@ html,body{
 #main{
     position: relative;
     overflow: hidden;
+    background-color: #000;
 }
 #page{
     position: relative;
@@ -230,6 +231,7 @@ html,body{
     left:50%;
     transform: translateX(-50%);
     top:20%;
+    color: #F5F5F7;
     font-weight: 800;
 }
 .right5{
@@ -431,4 +433,311 @@ html,body{
 }
 #page13>h1>span{
     color:#000;
+}
+#page14{
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left14{
+    height: 90%;
+    width: 45%;
+    position: relative;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_top__k3b8lzqd1l2m_large_2x.jpg);
+    background-size: cover;
+}
+.right14{
+    height: 90%;
+    width: 45%;
+    position: relative;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_side__gm4agomrwl2e_large_2x.jpg);
+    background-size: cover;
+
+}
+#page15{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+#center-page15{
+    height: 94%;
+    width: 95%;
+    position: relative;
+}
+#center-page15>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page16{
+    position: relative;
+    height: 120vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+#page16>h2{
+    position: absolute;
+    width: 70%;
+    font-weight: 800;
+    top:5%;
+    margin-bottom: 5%;
+    padding-bottom: 50px;
+    color: #767575;
+}
+#page16>h2>span{
+    color: #000;
+}
+#page16>img{
+    width: 50%;
+    position: absolute;
+    bottom: 0%;
+    
+}
+#page16>button{
+    position: absolute;
+    bottom:5%;
+    padding: 10px 20px;
+    font-size: 1.5vw;
+    border-radius: 50px;
+    background-color: #FF640F;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+}
+#page17{
+    position: relative;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+}
+#page17>h4{
+    font-size: 2vw;
+    font-weight: 500;
+    margin-bottom: 2vw;
+}
+#page17>h1{
+    font-size: 5vw;
+    line-height: 1;
+    font-weight: 500;
+    margin-bottom: 3vw;
+}
+#page17>p{
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin-bottom: 2vw;
+    color: #ffffff7c;
+    width: 50%;
+    text-align: center;
+}
+#page17>p>span{
+    color: #fff;
+}
+#page18{
+    position: relative;
+    height: 70vh;
+    width: 100vw;
+    top:0%;
+    background-color: #000;
+
+}
+#page18>canvas{
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+#page19{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+    height: 30vh;
+    width: 100vw;
+    padding-top: 9%;
+    background-color: #000;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5vw;
+}
+#page19>h5{
+    
+    width: 45%;
+    line-height: 1.6rem;
+    color: #817f7f;
+    font-weight: 100;
+    margin-bottom: 10%;
+}
+#page20{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+#page20>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#center-page20{
+    position: absolute;
+    right: -35%;
+    width: 70%;
+    height: 50%;
+    bottom:10%;
+    color:#fff;
+}
+#center-page20 h1{
+    font-size: 2vw;
+    color: #fff;
+
+}
+#center-page20 p{
+    width: 30%;
+}
+#page21{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000;
+}
+#page21>#troff{
+    position: absolute;
+    height: 60vh;
+    width: 50%;
+    top:50%;
+    left:50%;
+    z-index: 99;
+    transform: translate(-50%,-50%);
+}
+#page21>#tron{
+    position: absolute;
+    height: 60vh;
+    width: 50%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+#page22{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+    height: 30vh;
+    width: 100vw;
+    /* background-color: #b51010; */
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5vw;
+    
+}
+#page22>h5{
+    width: 35%;
+    line-height: 1.6rem;
+    color: #817f7f;
+    font-weight: 100;
+}
+#page23{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+#page23>#snroff{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 50%;
+    z-index: 9;
+}
+#page23>#snron{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 50%;
+}
+#page24{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+    height: 30vh;
+    width: 100vw;
+    /* background-color: #b51010; */
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5vw;
+    
+}
+#page24>h5{
+    width: 35%;
+    line-height: 1.6rem;
+    color: #817f7f;
+    font-weight: 100;
+    margin-bottom: 10%;
+}
+#page25{
+    position: relative;
+    height: 120vh;
+    width: 100vw;
+    background-color: #000;
+    
+}
+#page25>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity:0
+}
+#page26{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+    height: 50vh;
+    width: 100vw;
+    /* background-color: #b51010; */
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5vw;
+    
+}
+#page26>h5{
+    width: 45%;
+    line-height: 1.6rem;
+    color: #817f7f;
+    font-weight: 100;
+    margin-bottom: 15%;
+}
+#page26>button{
+    position: absolute;
+    bottom:10%;
+    padding: 10px 20px;
+    font-size: 1.5vw;
+    border-radius: 50px;
+    background-color: #FF640F;
+    color: #fff;
+    font-weight: 600;
+    border: none;
 }
