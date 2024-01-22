@@ -36,6 +36,5 @@ If you find this project helpful or just love it, consider giving it a star. It'
 
 ## 📃 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
+This project is licensed under the MIT License.
 Happy exploring! 🚀🍎
