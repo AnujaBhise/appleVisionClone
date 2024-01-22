@@ -1,11 +1,20 @@
 # 🍏 AppleVisionClone Website
+https://github.com/AnujaBhise/appleVisionClone/assets/96904529/b5d0c5ee-eea2-4a2e-a8b4-d899610f6e6e
 
+## 🍎Overview
 Welcome to the futuristic world of Apple Vision Pro! 🚀 This stunning website clone showcases the groundbreaking features of Vision Pro, seamlessly blending digital content with your physical space. 🌐✨
 
 ## 🎥 Demo
 
-See it in action! 
-https://github.com/AnujaBhise/appleVisionClone/assets/96904529/daf4a303-cb6a-4978-acc8-7d3e193aefba
+See it in action!
+
+
+
+
+
+
+
+
 
 
 
